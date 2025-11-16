@@ -22,4 +22,73 @@ This project captures live webcam video, detects faces in real-time, and recogni
 ---
 
 ## 🗂️ Project Structure
+face-attendance-system/
+│
+├── Attendance/ # Attendance logs
+├── StudentDetails/ # Student information
+├── TrainingImageLabel/ # Training images folder
+├── haarcascade_frontalface_default.xml
+└── main.py # Main script to run
+
+
+---
+
+## 🛠️ Technologies Used
+
+| Tech            | Description                       |
+|-----------------|-----------------------------------|
+| 🐍 Python       | Core Programming Language         |
+| 📷 OpenCV       | Face detection with Haar Cascade  |
+| 🧬 face-recognition | Face matching algorithm (if used) |
+| 🗂️ CSV/Text     | Attendance logging format         |
+
+---
+
+## 🔧 Installation & Setup
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/Priyansh2602/face-attendance-system.git
+   cd face-attendance-system
+
+
+Install dependencies
+
+pip install opencv-python
+
+
+(Add face_recognition only if needed in code)
+
+Run the Project
+
+python main.py
+
+
+Make sure your webcam is connected and working.
+
+📋 How It Works
+
+Loads Haar Cascade classifier for face detection
+
+Captures frames from webcam
+
+Detects and recognizes stored faces
+
+Logs name & timestamp to the Attendance/ folder
+
+📈 Possible Improvements
+
+Add UI interface using Tkinter or PyQt
+
+Store attendance in a database
+
+Train on larger datasets for more accuracy
+
+Notify users with email/report generation
+
+👤 Author
+
+Priyansh Arora
+📧 Email: priyansharora2602@gmail.com
+🌍 Location: Delhi, India
 
