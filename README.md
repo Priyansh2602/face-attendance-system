@@ -27,8 +27,11 @@ face-attendance-system/
 ├── Attendance/ # Attendance logs
 
 ├── StudentDetails/ # Student information
+
 ├── TrainingImageLabel/ # Training images folder
+
 ├── haarcascade_frontalface_default.xml
+
 └── main.py # Main script to run
 
 
@@ -40,7 +43,7 @@ face-attendance-system/
 |-----------------|-----------------------------------|
 | 🐍 Python       | Core Programming Language         |
 | 📷 OpenCV       | Face detection with Haar Cascade  |
-| 🧬 face-recognition | Face matching algorithm (if used) |
+| 🧬 face-recognition | Face matching algorithm  |
 | 🗂️ CSV/Text     | Attendance logging format         |
 
 ---
@@ -90,6 +93,8 @@ Notify users with email/report generation
 👤 Author
 
 Priyansh Arora
+
 📧 Email: priyansharora2602@gmail.com
+
 🌍 Location: Delhi, India
 
