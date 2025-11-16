@@ -79,8 +79,6 @@ Make sure your webcam is connected and working.
 
 📈 Possible Improvements
 
-• Add UI interface using Tkinter or PyQt
-
 • Store attendance in a database
 
 • Train on larger datasets for more accuracy
