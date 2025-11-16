@@ -23,6 +23,7 @@ This project captures live webcam video, detects faces in real-time, and recogni
 
 ## 🗂️ Project Structure
 face-attendance-system/
+
 │
 ├── Attendance/ # Attendance logs
 
@@ -56,45 +57,41 @@ face-attendance-system/
    cd face-attendance-system
 
 
-Install dependencies
+⚙️ Install dependencies
+• pip install opencv-python
 
-pip install opencv-python
 
-
-(Add face_recognition only if needed in code)
-
-Run the Project
-
-python main.py
+▶️ Run the Project
+• python main.py
 
 
 Make sure your webcam is connected and working.
 
 📋 How It Works
 
-Loads Haar Cascade classifier for face detection
+• Loads Haar Cascade classifier for face detection
 
-Captures frames from webcam
+• Captures frames from webcam
 
-Detects and recognizes stored faces
+• Detects and recognizes stored faces
 
-Logs name & timestamp to the Attendance/ folder
+• Logs name & timestamp to the Attendance/ folder
 
 📈 Possible Improvements
 
-Add UI interface using Tkinter or PyQt
+• Add UI interface using Tkinter or PyQt
 
-Store attendance in a database
+• Store attendance in a database
 
-Train on larger datasets for more accuracy
+• Train on larger datasets for more accuracy
 
-Notify users with email/report generation
+• Notify users with email/report generation
 
 👤 Author
 
 Priyansh Arora
 
-📧 Email: priyansharora2602@gmail.com
+📧 Email: priyansharora9291@gmail.com
 
 🌍 Location: Delhi, India
 
