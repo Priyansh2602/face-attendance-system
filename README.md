@@ -25,6 +25,7 @@ This project captures live webcam video, detects faces in real-time, and recogni
 face-attendance-system/
 │
 ├── Attendance/ # Attendance logs
+
 ├── StudentDetails/ # Student information
 ├── TrainingImageLabel/ # Training images folder
 ├── haarcascade_frontalface_default.xml
