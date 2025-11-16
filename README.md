@@ -44,7 +44,7 @@ face-attendance-system/
 |-----------------|-----------------------------------|
 | 🐍 Python       | Core Programming Language         |
 | 📷 OpenCV       | Face detection with Haar Cascade  |
-| 🧬 face-recognition | Face matching algorithm  |
+| 🧬 face-recognition | LBPH (Local Binary Patterns Histogram)  |
 | 🗂️ CSV/Text     | Attendance logging format         |
 
 ---
